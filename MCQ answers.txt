@@ -1,0 +1,36 @@
+1.d.int
+2.d.the code does not compile
+3.b. throwable
+4.d. throw
+5.c.java.lang
+6.a.1 2 5 8
+7.d.try
+8.a
+9.c
+10.a
+11.d
+12. d
+13.b
+14.b
+15.a
+16.d
+17.a
+18.d
+19.a
+20.a
+21.d
+22.b
+23.b
+24.d
+25.a
+26.b
+27.a
+28.a
+29.b
+30.a
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+package BasicProg;
+
+abstract class Employee 
+{
+	abstract void getSalary();
+	abstract void setSalary();
+	abstract void setGrade(); 
+	abstract void getGrade ();
+	
+	
+}
+
+
+
+package BasicProg;
+
+class EmployeeDetail extends Employee
+{
+
+void getSalary() 
+{
+System.out.println("employee salary is: "+40000);
+}
+void setSalary() {
+	System.out.println("employee updated salary is :"+50000);
+	
+}
+void setGrade() {
+System.out.println("employee grade is: "+'A');
+}
+void getGrade() {
+	System.out.println("employee updated grade is: "+'B');
+	
+}
+}
+
+
+
+
+package BasicProg;
+
+public class MainEmployee 
+{
+	public static void main(String[] args) 
+	{
+		EmployeeDetail e1 =new EmployeeDetail();
+		e1.getSalary();
+		e1.setSalary();
+		e1.setGrade();
+		e1.getGrade();
+	}
+}
